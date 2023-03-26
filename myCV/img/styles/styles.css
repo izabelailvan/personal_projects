@@ -1,0 +1,251 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat';
+}
+
+/* Right section styles */
+
+.about-me-section{
+    width: 400px;
+}
+
+.about-me-profesion{ 
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: black;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 100px;
+}
+#personName{
+    font-family: 'Montserrat';
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 55px;
+    margin-top: 30px;
+}
+.about-me-section p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects-section{
+   margin-top: 40px;
+
+}
+
+.block-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.projects-section ol{
+    padding-left: 18px;
+}
+
+ol li, .bracket{
+    font-weight: 700;
+    color: #000000;
+}
+
+.projects-item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #595959;
+    margin-left: 10px;
+}
+
+.projects-item a{
+    color: #595959;
+}
+.main-section{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.right-section{
+    padding-left: 90px;
+    background-color: white;
+    padding-right: 220px;
+}
+
+.work-experience-section{
+    margin-top: 50px;
+}
+
+.work-experience-position{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.work-experience-position span{
+    color: #FB6D3A;
+}
+
+.work-experience-period{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.work-experience-period span{
+    font-weight: 700;
+    color: #000000;
+}
+
+.work-experience-section ul{
+    color:#595959;
+    padding-left: 22px;
+}
+.work-experience-section ul li span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    
+}
+
+.university-name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-top: 10px;
+}
+
+.profil-name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.education-section{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+/* Sidebar styles */
+
+.sidebar-section{
+    width: 370px;
+    background-color: #1E2939;
+}
+
+.picture-section{
+    width: 370px;
+    height: 354px;
+    left: 40px;
+    top: 80px;
+    margin-top: 40px;
+
+    background: url(pozacv.jpg);
+}
+
+.contacts-section{
+    margin-top: 50px;
+    width: 174px;
+    height: 83px;
+    left: 80px;
+    top: 485px;
+    padding-left: 40px;
+}
+
+.tech-section{
+    margin-top: 50px;
+    width: 121px;
+    height: 203px;
+    left: 80px;
+    top: 615px;
+    padding-left: 40px;
+}
+
+.soft-section{
+    margin-top: 50px;
+    width: 113px;
+    height: 131px;
+    left: 80px;
+    top: 862px;
+    padding-left: 40px;
+}
+
+.title-white{
+    color: white;
+}
+
+.sidebar-titles{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+}
+
+.initials{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.tech-section ul{
+    color: #FB6D3A;
+    padding-left: 20px;
+}
+
+.tech-section ul li span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+.soft-section ul{
+    color: #FB6D3A;
+    padding-left: 20px;
+}
+
+.soft-section ul li span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
